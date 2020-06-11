@@ -1,11 +1,12 @@
 package com.serdarsenturk;
 
 public class AlkaliMetal extends Element {
-    public AlkaliMetal(int Z, String symbol, String name, String group) {
-        super(Z, symbol, name, group);
+
+    public AlkaliMetal(int Z, String Sembol, String Ad, String Grup) {
+        super(Z, Sembol, Ad, Grup);
     }
 
-    public String WriteType(){
+    public String TurYazdir(){
         return "Alkali Metal";
     }
 }

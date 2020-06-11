@@ -2,24 +2,24 @@ package com.serdarsenturk;
 
 public class Element {
     private int Z;
-    private String symbol;
-    private String name;
-    private String group;
+    private String Sembol;
+    private String Ad;
+    private String Grup;
 
-    public Element(int Z, String symbol, String name, String group){
+    public Element(int Z, String Sembol, String Ad, String Grup){
         this.Z = Z;
-        this.symbol = symbol;
-        this.name = name;
-        this.group = group;
+        this.Sembol = Sembol;
+        this.Ad = Ad;
+        this.Grup = Grup;
     }
 
-    public String WriteType(){
-        return "Element";
+    public String TurYazdir(){
+        return "Element" + "-";
     }
 
-    public String WriteFeatures(int Z, String symbol, String name, String group){
+    public String OzellikYazdir(){
         String z = String.valueOf(Z);
-        return (z +this.symbol + this.name + this.group);
+        return (z + "-" + this.Sembol + "-" + this.Ad + "-" + this.Grup);
     }
 
 }
