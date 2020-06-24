@@ -1,3 +1,4 @@
+Z	Sembol	Element	Grup
 1	H	Hidrojen	1A
 2	He	Helyum	8A
 3	Li	Lityum	1A
